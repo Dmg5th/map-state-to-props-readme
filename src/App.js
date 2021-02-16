@@ -25,6 +25,7 @@ class App extends Component {
 
 // start of code change
 const mapStateToProps = (state) => {
+  debugger
   return { items: state.items };
 };
 
